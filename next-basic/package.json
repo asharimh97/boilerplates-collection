@@ -1,0 +1,65 @@
+{
+  "name": "kulina-tools-caterer",
+  "version": "1.0.0",
+  "description": "Tools for caterers in Kulina",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cross-env NODE_ENV=test jest",
+    "dev": "node server.js",
+    "build": "next build src",
+    "start": "./node_modules/.bin/cross-env NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "kulina",
+    "caterer"
+  ],
+  "author": "kulina-dev-team",
+  "private": true,
+  "engines": {
+    "node": "8.12.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.18.0",
+    "compression": "^1.7.4",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "http": "0.0.0",
+    "next": "^8.0.3",
+    "next-offline": "^3.3.7",
+    "next-redux-wrapper": "^3.0.0-alpha.2",
+    "next-routes": "^1.4.2",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.2.0",
+    "styled-system": "^4.0.8"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.5.0",
+    "babel-plugin-styled-components": "^1.10.0",
+    "cross-env": "^5.2.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "eslint": "^5.15.3",
+    "eslint-config-google": "^0.12.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.5.0",
+    "jest-styled-components": "^6.3.1",
+    "prettier": "^1.16.4",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}
