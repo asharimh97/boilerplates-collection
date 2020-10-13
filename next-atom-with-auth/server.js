@@ -37,15 +37,13 @@ app
       })
     );
 
-    appRoutes(server);
-
     server.use("/static/", express.static("public"));
     server.use("/public/", express.static("public"));
 
     server.use(handler).listen(PORT, err => {
       if (err) throw err;
 
-      logger.info(`> Ready on ${ORIGIN}`);
+      logger.info(`> Ready on ${APP_ORIGIN}`);
     });
   })
   .catch(error => {
