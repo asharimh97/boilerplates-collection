@@ -69,7 +69,8 @@ Text.defaultProps = {
   fontSize: 1,
   lineHeight: "1.65",
   mx: 0,
-  my: 0
+  my: 0,
+  mb: "1.05em"
 };
 
 export default Text;
