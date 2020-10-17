@@ -38,6 +38,13 @@ const small = css`
   font-size: ${props => props.small && props.theme.fontSizes[0]};
 `;
 
+const tight = props =>
+  props.tight &&
+  css`
+    margin-top: 0;
+    margin-bottom: 0;
+  `;
+
 const Text = styled.p`
   color: ${themeGet("colors.textColor.primary")};
   ${typography}
@@ -55,6 +62,7 @@ const Text = styled.p`
   ${lowercase};
 
   ${props => props.truncate && truncate};
+  ${tight};
 `;
 
 Text.propTypes = {
