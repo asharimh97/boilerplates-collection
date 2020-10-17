@@ -1,10 +1,13 @@
 export { default as Absolute } from "./Absolute";
+export { default as Avatar } from "./Avatar";
 export { default as Box } from "./Box";
 export { default as Card } from "./Card";
 export { default as Container } from "./Container";
 export { default as Fixed } from "./Fixed";
 export { default as Flex } from "./Flex";
 export { default as Grid } from "./Grid";
+export { default as Image } from "./Image";
+export { default as Link } from "./Link";
 export { default as Sticky } from "./Sticky";
 export { default as Text } from "./Text";
 export { default as Title } from "./Title";
