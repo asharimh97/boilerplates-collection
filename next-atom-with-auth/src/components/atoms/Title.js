@@ -23,8 +23,7 @@ Title.displayName = "Title";
 Title.defaultProps = {
   as: "h1",
   lineHeight: "1.15",
-  mb: "1.05em",
-  mt: "2em"
+  my: "1.25em"
 };
 
 export default Title;
