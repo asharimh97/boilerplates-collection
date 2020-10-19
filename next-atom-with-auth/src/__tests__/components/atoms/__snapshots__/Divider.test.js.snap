@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders \`Divider\` with \`vertical\` prop 1`] = `
+.c0 {
+  margin-left: 16px;
+  margin-right: 16px;
+  border-color: #ccc;
+}
+
+.c1 {
+  border: none;
+  border-top: solid 1px;
+  color: transparent;
+  display: block;
+  width: 100%;
+  display: inline-block;
+  border-top: none;
+  border-left: solid 1px;
+  font-size: inherit;
+  margin: 0 12px;
+  min-height: 0.9em;
+  width: 1px;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-color: #ccc;
+}
+
+<div
+  className="c0 c1"
+/>
+`;
+
+exports[`renders \`Divider\` with additional props 1`] = `
+.c0 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-color: #ccc;
+}
+
+.c1 {
+  border: none;
+  border-top: solid 1px;
+  color: transparent;
+  display: block;
+  width: 100%;
+  border-color: #ccc;
+}
+
+<div
+  className="c0 c1"
+/>
+`;
