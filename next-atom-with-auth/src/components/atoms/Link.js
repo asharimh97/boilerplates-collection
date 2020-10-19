@@ -13,12 +13,12 @@ const StyledLink = styled.a`
 
 const Link = ({ href, route, children, ...props }) => {
   return href ? (
-    <StyledLink href={href} {...props}>
+    <StyledLink data-testid="external-link" href={href} {...props}>
       {children}
     </StyledLink>
   ) : (
     <RouteLink route={route} {...props}>
-      <StyledLink>{children}</StyledLink>
+      <StyledLink data-testid="internal-link">{children}</StyledLink>
     </RouteLink>
   );
 };
