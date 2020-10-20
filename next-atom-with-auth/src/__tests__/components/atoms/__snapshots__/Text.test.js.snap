@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test \`Text\` render styled component renders bold \`Text\` 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.65;
+  font-weight: 700;
+}
+
+<p
+  className="c0"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Text\` render styled component renders capitalize \`Text\` 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.65;
+  text-transform: capitalize;
+}
+
+<p
+  className="c0"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Text\` render styled component renders default style if no props passed 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.65;
+}
+
+<p
+  className="c0"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Text\` render styled component renders lowercase \`Text\` 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.65;
+  text-transform: lowercase;
+}
+
+<p
+  className="c0"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Text\` render styled component renders medium \`Text\` 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.65;
+  font-weight: 500;
+}
+
+<p
+  className="c0"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Text\` render styled component renders no margin if \`tight\` prop passed 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.65;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+<p
+  className="c0"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Text\` render styled component renders semibold \`Text\` 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.65;
+  font-weight: 600;
+}
+
+<p
+  className="c0"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Text\` render styled component renders truncated \`Text\` 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.65;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+<p
+  className="c0"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Text\` render styled component renders uppercase \`Text\` 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.65;
+  text-transform: uppercase;
+}
+
+<p
+  className="c0"
+  fontSize={1}
+/>
+`;

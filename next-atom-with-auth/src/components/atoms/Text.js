@@ -1,7 +1,8 @@
 import styled, { css } from "styled-components";
-import { color, space, typography } from "styled-system";
+import { color, layout, space, typography } from "styled-system";
 import propTypes from "@styled-system/prop-types";
 import themeGet from "@styled-system/theme-get";
+import theme from "styles/theme";
 
 const bold = css`
   font-weight: ${props => props.bold && props.theme.bold};
@@ -27,12 +28,14 @@ const lowercase = css`
   text-transform: ${props => props.lowercase && "lowercase"};
 `;
 
-const truncate = css`
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-break: break-word;
-`;
+const truncate = props =>
+  props.truncate &&
+  css`
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-word;
+  `;
 
 const small = css`
   font-size: ${props => props.small && props.theme.fontSizes[0]};
@@ -47,9 +50,10 @@ const tight = props =>
 
 const Text = styled.p`
   color: ${themeGet("colors.textColor.primary")};
-  ${typography}
-  ${space}
   ${color}
+  ${layout}
+  ${space}
+  ${typography}
 
   ${small};
 
@@ -61,19 +65,21 @@ const Text = styled.p`
   ${uppercase};
   ${lowercase};
 
-  ${props => props.truncate && truncate};
+  ${truncate};
   ${tight};
 `;
 
 Text.propTypes = {
   ...propTypes.color,
   ...propTypes.space,
-  ...propTypes.typography
+  ...propTypes.typography,
+  ...propTypes.layout
 };
 
 Text.displayName = "Text";
 
 Text.defaultProps = {
+  theme,
   fontSize: 1,
   lineHeight: "1.65",
   mx: 0,
