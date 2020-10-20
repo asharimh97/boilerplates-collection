@@ -1,0 +1,715 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test render styled \`Button\` renders \`Button\` with \`type='link'\` 1`] = `
+.c0,
+.c0:hover,
+.c0:active,
+.c0:focus {
+  color: #ff3b30;
+}
+
+<button
+  className="ant-btn ant-btn-link c0"
+  color="red"
+  onClick={[Function]}
+  theme={
+    Object {
+      "bold": 700,
+      "breakpoints": Array [
+        "426px",
+        "768px",
+        "992px",
+        "1200px",
+      ],
+      "colors": Object {
+        "black": Object {
+          "10": "#F5F5F5",
+          "100": "#25282B",
+          "20": "#EBEBEB",
+          "40": "#CACCCF",
+          "5": "#FAFAFA",
+          "60": "#A0A4A8",
+          "80": "#52575C",
+          "primary": "#25282B",
+        },
+        "blue": Object {
+          "10": "#e6f7ff",
+          "40": "#4fc7fd",
+          "50": "#1cb7fc",
+          "60": "#039de3",
+          "80": "#02577e",
+          "primary": "#1cb7fc",
+        },
+        "danger": Object {
+          "10": "#ffd8d6",
+          "40": "#ff8983",
+          "50": "#ff3b30",
+          "60": "#cc2f26",
+          "80": "#99231D",
+          "primary": "#ff3b30",
+        },
+        "disabled": Object {
+          "10": "#F5F5F5",
+          "100": "#25282B",
+          "20": "#EBEBEB",
+          "40": "#CACCCF",
+          "5": "#FAFAFA",
+          "60": "#A0A4A8",
+          "80": "#52575C",
+          "primary": "#25282B",
+        },
+        "green": Object {
+          "10": "#e5f8e5",
+          "40": "#66d566",
+          "50": "#00b900",
+          "60": "#009b00",
+          "80": "#007a00",
+          "primary": "#00b900",
+        },
+        "info": Object {
+          "10": "#e6f7ff",
+          "40": "#4fc7fd",
+          "50": "#1cb7fc",
+          "60": "#039de3",
+          "80": "#02577e",
+          "primary": "#1cb7fc",
+        },
+        "orange": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+        "primary": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+        "red": Object {
+          "10": "#ffd8d6",
+          "40": "#ff8983",
+          "50": "#ff3b30",
+          "60": "#cc2f26",
+          "80": "#99231D",
+          "primary": "#ff3b30",
+        },
+        "success": Object {
+          "10": "#e5f8e5",
+          "40": "#66d566",
+          "50": "#00b900",
+          "60": "#009b00",
+          "80": "#007a00",
+          "primary": "#00b900",
+        },
+        "textColor": Object {
+          "primary": "#25282B",
+          "quarternary": "#CACCCF",
+          "secondary": "#52575C",
+          "tertiary": "#A0A4A8",
+        },
+        "warning": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+      },
+      "font": "Google Sans, Helvetica, Arial, sans-serif",
+      "fontSizes": Array [
+        "0.8em",
+        "1em",
+        "1.25em",
+        "1.563em",
+        "1.953em",
+        "2.441em",
+        "3.052em",
+      ],
+      "fontWeights": Object {
+        "bold": 700,
+        "light": 300,
+        "medium": 500,
+        "regular": 400,
+        "semibold": 600,
+      },
+      "light": 300,
+      "mediaQueries": Array [
+        "@media screen and (min-width:426px)",
+        "@media screen and (min-width:768px)",
+        "@media screen and (min-width:992px)",
+        "@media screen and (min-width:1200px)",
+      ],
+      "medium": 500,
+      "regular": 400,
+      "semibold": 600,
+      "shadows": Array [
+        "0 1px 1px 0 rgba(10, 31, 68, 0.08), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 3px 4px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 8px 10px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 18px 18px 0 rgba(10, 31, 68, 0.12), 0 0 1px 0 rgba(10, 31, 68, 0.1)",
+        "0 26px 26px 0 rgba(10, 31, 68, 0.12), 0 0 1px 0 rgba(10, 31, 68, 0.1)",
+        "0 3px 32px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+      ],
+      "space": Array [
+        0,
+        4,
+        8,
+        16,
+        24,
+        32,
+        40,
+        64,
+        128,
+        256,
+        512,
+      ],
+    }
+  }
+  type="button"
+/>
+`;
+
+exports[`test render styled \`Button\` renders \`Button\` with \`type='link'\` and hex color 1`] = `
+.c0,
+.c0:hover,
+.c0:active,
+.c0:focus {
+  color: #f0f0f0;
+}
+
+<button
+  className="ant-btn ant-btn-link c0"
+  color="#f0f0f0"
+  onClick={[Function]}
+  theme={
+    Object {
+      "bold": 700,
+      "breakpoints": Array [
+        "426px",
+        "768px",
+        "992px",
+        "1200px",
+      ],
+      "colors": Object {
+        "black": Object {
+          "10": "#F5F5F5",
+          "100": "#25282B",
+          "20": "#EBEBEB",
+          "40": "#CACCCF",
+          "5": "#FAFAFA",
+          "60": "#A0A4A8",
+          "80": "#52575C",
+          "primary": "#25282B",
+        },
+        "blue": Object {
+          "10": "#e6f7ff",
+          "40": "#4fc7fd",
+          "50": "#1cb7fc",
+          "60": "#039de3",
+          "80": "#02577e",
+          "primary": "#1cb7fc",
+        },
+        "danger": Object {
+          "10": "#ffd8d6",
+          "40": "#ff8983",
+          "50": "#ff3b30",
+          "60": "#cc2f26",
+          "80": "#99231D",
+          "primary": "#ff3b30",
+        },
+        "disabled": Object {
+          "10": "#F5F5F5",
+          "100": "#25282B",
+          "20": "#EBEBEB",
+          "40": "#CACCCF",
+          "5": "#FAFAFA",
+          "60": "#A0A4A8",
+          "80": "#52575C",
+          "primary": "#25282B",
+        },
+        "green": Object {
+          "10": "#e5f8e5",
+          "40": "#66d566",
+          "50": "#00b900",
+          "60": "#009b00",
+          "80": "#007a00",
+          "primary": "#00b900",
+        },
+        "info": Object {
+          "10": "#e6f7ff",
+          "40": "#4fc7fd",
+          "50": "#1cb7fc",
+          "60": "#039de3",
+          "80": "#02577e",
+          "primary": "#1cb7fc",
+        },
+        "orange": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+        "primary": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+        "red": Object {
+          "10": "#ffd8d6",
+          "40": "#ff8983",
+          "50": "#ff3b30",
+          "60": "#cc2f26",
+          "80": "#99231D",
+          "primary": "#ff3b30",
+        },
+        "success": Object {
+          "10": "#e5f8e5",
+          "40": "#66d566",
+          "50": "#00b900",
+          "60": "#009b00",
+          "80": "#007a00",
+          "primary": "#00b900",
+        },
+        "textColor": Object {
+          "primary": "#25282B",
+          "quarternary": "#CACCCF",
+          "secondary": "#52575C",
+          "tertiary": "#A0A4A8",
+        },
+        "warning": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+      },
+      "font": "Google Sans, Helvetica, Arial, sans-serif",
+      "fontSizes": Array [
+        "0.8em",
+        "1em",
+        "1.25em",
+        "1.563em",
+        "1.953em",
+        "2.441em",
+        "3.052em",
+      ],
+      "fontWeights": Object {
+        "bold": 700,
+        "light": 300,
+        "medium": 500,
+        "regular": 400,
+        "semibold": 600,
+      },
+      "light": 300,
+      "mediaQueries": Array [
+        "@media screen and (min-width:426px)",
+        "@media screen and (min-width:768px)",
+        "@media screen and (min-width:992px)",
+        "@media screen and (min-width:1200px)",
+      ],
+      "medium": 500,
+      "regular": 400,
+      "semibold": 600,
+      "shadows": Array [
+        "0 1px 1px 0 rgba(10, 31, 68, 0.08), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 3px 4px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 8px 10px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 18px 18px 0 rgba(10, 31, 68, 0.12), 0 0 1px 0 rgba(10, 31, 68, 0.1)",
+        "0 26px 26px 0 rgba(10, 31, 68, 0.12), 0 0 1px 0 rgba(10, 31, 68, 0.1)",
+        "0 3px 32px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+      ],
+      "space": Array [
+        0,
+        4,
+        8,
+        16,
+        24,
+        32,
+        40,
+        64,
+        128,
+        256,
+        512,
+      ],
+    }
+  }
+  type="button"
+/>
+`;
+
+exports[`test render styled \`Button\` renders \`Button\` with color 1`] = `
+.c0 {
+  background-color: #ff3b30;
+  border-color: #ff3b30;
+  color: white;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-color: #cc2f26;
+  border-color: #cc2f26;
+  color: white;
+}
+
+<button
+  className="ant-btn c0"
+  color="red"
+  onClick={[Function]}
+  theme={
+    Object {
+      "bold": 700,
+      "breakpoints": Array [
+        "426px",
+        "768px",
+        "992px",
+        "1200px",
+      ],
+      "colors": Object {
+        "black": Object {
+          "10": "#F5F5F5",
+          "100": "#25282B",
+          "20": "#EBEBEB",
+          "40": "#CACCCF",
+          "5": "#FAFAFA",
+          "60": "#A0A4A8",
+          "80": "#52575C",
+          "primary": "#25282B",
+        },
+        "blue": Object {
+          "10": "#e6f7ff",
+          "40": "#4fc7fd",
+          "50": "#1cb7fc",
+          "60": "#039de3",
+          "80": "#02577e",
+          "primary": "#1cb7fc",
+        },
+        "danger": Object {
+          "10": "#ffd8d6",
+          "40": "#ff8983",
+          "50": "#ff3b30",
+          "60": "#cc2f26",
+          "80": "#99231D",
+          "primary": "#ff3b30",
+        },
+        "disabled": Object {
+          "10": "#F5F5F5",
+          "100": "#25282B",
+          "20": "#EBEBEB",
+          "40": "#CACCCF",
+          "5": "#FAFAFA",
+          "60": "#A0A4A8",
+          "80": "#52575C",
+          "primary": "#25282B",
+        },
+        "green": Object {
+          "10": "#e5f8e5",
+          "40": "#66d566",
+          "50": "#00b900",
+          "60": "#009b00",
+          "80": "#007a00",
+          "primary": "#00b900",
+        },
+        "info": Object {
+          "10": "#e6f7ff",
+          "40": "#4fc7fd",
+          "50": "#1cb7fc",
+          "60": "#039de3",
+          "80": "#02577e",
+          "primary": "#1cb7fc",
+        },
+        "orange": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+        "primary": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+        "red": Object {
+          "10": "#ffd8d6",
+          "40": "#ff8983",
+          "50": "#ff3b30",
+          "60": "#cc2f26",
+          "80": "#99231D",
+          "primary": "#ff3b30",
+        },
+        "success": Object {
+          "10": "#e5f8e5",
+          "40": "#66d566",
+          "50": "#00b900",
+          "60": "#009b00",
+          "80": "#007a00",
+          "primary": "#00b900",
+        },
+        "textColor": Object {
+          "primary": "#25282B",
+          "quarternary": "#CACCCF",
+          "secondary": "#52575C",
+          "tertiary": "#A0A4A8",
+        },
+        "warning": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+      },
+      "font": "Google Sans, Helvetica, Arial, sans-serif",
+      "fontSizes": Array [
+        "0.8em",
+        "1em",
+        "1.25em",
+        "1.563em",
+        "1.953em",
+        "2.441em",
+        "3.052em",
+      ],
+      "fontWeights": Object {
+        "bold": 700,
+        "light": 300,
+        "medium": 500,
+        "regular": 400,
+        "semibold": 600,
+      },
+      "light": 300,
+      "mediaQueries": Array [
+        "@media screen and (min-width:426px)",
+        "@media screen and (min-width:768px)",
+        "@media screen and (min-width:992px)",
+        "@media screen and (min-width:1200px)",
+      ],
+      "medium": 500,
+      "regular": 400,
+      "semibold": 600,
+      "shadows": Array [
+        "0 1px 1px 0 rgba(10, 31, 68, 0.08), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 3px 4px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 8px 10px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 18px 18px 0 rgba(10, 31, 68, 0.12), 0 0 1px 0 rgba(10, 31, 68, 0.1)",
+        "0 26px 26px 0 rgba(10, 31, 68, 0.12), 0 0 1px 0 rgba(10, 31, 68, 0.1)",
+        "0 3px 32px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+      ],
+      "space": Array [
+        0,
+        4,
+        8,
+        16,
+        24,
+        32,
+        40,
+        64,
+        128,
+        256,
+        512,
+      ],
+    }
+  }
+  type="button"
+/>
+`;
+
+exports[`test render styled \`Button\` renders \`Button\` with hex color 1`] = `
+.c0 {
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
+  color: white;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
+  color: white;
+}
+
+<button
+  className="ant-btn c0"
+  color="#f0f0f0"
+  onClick={[Function]}
+  theme={
+    Object {
+      "bold": 700,
+      "breakpoints": Array [
+        "426px",
+        "768px",
+        "992px",
+        "1200px",
+      ],
+      "colors": Object {
+        "black": Object {
+          "10": "#F5F5F5",
+          "100": "#25282B",
+          "20": "#EBEBEB",
+          "40": "#CACCCF",
+          "5": "#FAFAFA",
+          "60": "#A0A4A8",
+          "80": "#52575C",
+          "primary": "#25282B",
+        },
+        "blue": Object {
+          "10": "#e6f7ff",
+          "40": "#4fc7fd",
+          "50": "#1cb7fc",
+          "60": "#039de3",
+          "80": "#02577e",
+          "primary": "#1cb7fc",
+        },
+        "danger": Object {
+          "10": "#ffd8d6",
+          "40": "#ff8983",
+          "50": "#ff3b30",
+          "60": "#cc2f26",
+          "80": "#99231D",
+          "primary": "#ff3b30",
+        },
+        "disabled": Object {
+          "10": "#F5F5F5",
+          "100": "#25282B",
+          "20": "#EBEBEB",
+          "40": "#CACCCF",
+          "5": "#FAFAFA",
+          "60": "#A0A4A8",
+          "80": "#52575C",
+          "primary": "#25282B",
+        },
+        "green": Object {
+          "10": "#e5f8e5",
+          "40": "#66d566",
+          "50": "#00b900",
+          "60": "#009b00",
+          "80": "#007a00",
+          "primary": "#00b900",
+        },
+        "info": Object {
+          "10": "#e6f7ff",
+          "40": "#4fc7fd",
+          "50": "#1cb7fc",
+          "60": "#039de3",
+          "80": "#02577e",
+          "primary": "#1cb7fc",
+        },
+        "orange": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+        "primary": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+        "red": Object {
+          "10": "#ffd8d6",
+          "40": "#ff8983",
+          "50": "#ff3b30",
+          "60": "#cc2f26",
+          "80": "#99231D",
+          "primary": "#ff3b30",
+        },
+        "success": Object {
+          "10": "#e5f8e5",
+          "40": "#66d566",
+          "50": "#00b900",
+          "60": "#009b00",
+          "80": "#007a00",
+          "primary": "#00b900",
+        },
+        "textColor": Object {
+          "primary": "#25282B",
+          "quarternary": "#CACCCF",
+          "secondary": "#52575C",
+          "tertiary": "#A0A4A8",
+        },
+        "warning": Object {
+          "10": "#ffeacc",
+          "40": "#ffc066",
+          "50": "#ff9500",
+          "60": "#e07b03",
+          "80": "#c26307",
+          "primary": "#ff9500",
+        },
+      },
+      "font": "Google Sans, Helvetica, Arial, sans-serif",
+      "fontSizes": Array [
+        "0.8em",
+        "1em",
+        "1.25em",
+        "1.563em",
+        "1.953em",
+        "2.441em",
+        "3.052em",
+      ],
+      "fontWeights": Object {
+        "bold": 700,
+        "light": 300,
+        "medium": 500,
+        "regular": 400,
+        "semibold": 600,
+      },
+      "light": 300,
+      "mediaQueries": Array [
+        "@media screen and (min-width:426px)",
+        "@media screen and (min-width:768px)",
+        "@media screen and (min-width:992px)",
+        "@media screen and (min-width:1200px)",
+      ],
+      "medium": 500,
+      "regular": 400,
+      "semibold": 600,
+      "shadows": Array [
+        "0 1px 1px 0 rgba(10, 31, 68, 0.08), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 3px 4px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 8px 10px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+        "0 18px 18px 0 rgba(10, 31, 68, 0.12), 0 0 1px 0 rgba(10, 31, 68, 0.1)",
+        "0 26px 26px 0 rgba(10, 31, 68, 0.12), 0 0 1px 0 rgba(10, 31, 68, 0.1)",
+        "0 3px 32px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)",
+      ],
+      "space": Array [
+        0,
+        4,
+        8,
+        16,
+        24,
+        32,
+        40,
+        64,
+        128,
+        256,
+        512,
+      ],
+    }
+  }
+  type="button"
+/>
+`;
