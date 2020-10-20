@@ -2,7 +2,6 @@ import styled, { css } from "styled-components";
 import { color, layout, space, typography } from "styled-system";
 import propTypes from "@styled-system/prop-types";
 import themeGet from "@styled-system/theme-get";
-import theme from "styles/theme";
 
 const bold = css`
   font-weight: ${props => props.bold && props.theme.bold};
@@ -79,7 +78,6 @@ Text.propTypes = {
 Text.displayName = "Text";
 
 Text.defaultProps = {
-  theme,
   fontSize: 1,
   lineHeight: "1.65",
   mx: 0,
