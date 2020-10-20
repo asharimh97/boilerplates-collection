@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test \`Title\` styled render renders \`h1\` component 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1.25em;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.15;
+}
+
+.c1 {
+  font-size: 3.052em;
+}
+
+<h1
+  className="c0 c1"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Title\` styled render renders \`h2\` component 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1.25em;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.15;
+}
+
+.c1 {
+  font-size: 2.441em;
+}
+
+<h2
+  className="c0 c1"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Title\` styled render renders \`h3\` component 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1.25em;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.15;
+}
+
+.c1 {
+  font-size: 1.953em;
+}
+
+<h3
+  className="c0 c1"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Title\` styled render renders \`h4\` component 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1.25em;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.15;
+}
+
+.c1 {
+  font-size: 1.563em;
+}
+
+<h4
+  className="c0 c1"
+  fontSize={1}
+/>
+`;
+
+exports[`test \`Title\` styled render renders \`h5\` component 1`] = `
+.c0 {
+  color: #25282B;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1.25em;
+  margin-bottom: 1.05em;
+  font-size: 1em;
+  line-height: 1.15;
+}
+
+.c1 {
+  font-size: 1.25em;
+}
+
+<h5
+  className="c0 c1"
+  fontSize={1}
+/>
+`;
