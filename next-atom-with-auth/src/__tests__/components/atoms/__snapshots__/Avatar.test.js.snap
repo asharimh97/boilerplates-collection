@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test styled \`Avatar\` render with default style 1`] = `
+.c0 {
+  width: regular;
+  height: 50px;
+}
+
+.c1 {
+  position: relative;
+}
+
+.c3 {
+  height: 100% !important;
+  object-position: center;
+  object-fit: cover;
+  position: absolute;
+  width: 100% !important;
+}
+
+.c2 {
+  width: 50px;
+  height: 50px;
+}
+
+<div
+  className="c0 c1 c2"
+  height="50px"
+  size="regular"
+>
+  <img
+    alt=""
+    className="c3 c2"
+    height="50px"
+    onError={[Function]}
+    size="regular"
+    src="/static/images/avatar.jpeg"
+  />
+</div>
+`;
+
+exports[`test styled \`Avatar\` render with prop \`big\` 1`] = `
+.c0 {
+  width: big;
+  height: 65px;
+}
+
+.c1 {
+  position: relative;
+}
+
+.c3 {
+  height: 100% !important;
+  object-position: center;
+  object-fit: cover;
+  position: absolute;
+  width: 100% !important;
+}
+
+.c2 {
+  width: 65px;
+  height: 65px;
+}
+
+<div
+  className="c0 c1 c2"
+  height="65px"
+  size="big"
+>
+  <img
+    alt=""
+    className="c3 c2"
+    height="65px"
+    onError={[Function]}
+    size="big"
+    src="/static/images/avatar.jpeg"
+  />
+</div>
+`;
+
+exports[`test styled \`Avatar\` render with prop \`size\` 1`] = `
+.c0 {
+  width: 30px;
+  height: 30px;
+}
+
+.c1 {
+  position: relative;
+}
+
+.c3 {
+  height: 100% !important;
+  object-position: center;
+  object-fit: cover;
+  position: absolute;
+  width: 100% !important;
+}
+
+.c2 {
+  width: 30px;
+  height: 30px;
+}
+
+<div
+  className="c0 c1 c2"
+  height="30px"
+  size={30}
+>
+  <img
+    alt=""
+    className="c3 c2"
+    height="30px"
+    onError={[Function]}
+    size={30}
+    src="/static/images/avatar.jpeg"
+  />
+</div>
+`;
+
+exports[`test styled \`Avatar\` render with prop \`size\` 2`] = `
+.c0 {
+  width: 1em;
+  height: 1em;
+}
+
+.c1 {
+  position: relative;
+}
+
+.c3 {
+  height: 100% !important;
+  object-position: center;
+  object-fit: cover;
+  position: absolute;
+  width: 100% !important;
+}
+
+.c2 {
+  width: 1em;
+  height: 1em;
+}
+
+<div
+  className="c0 c1 c2"
+  height="1em"
+  size="1em"
+>
+  <img
+    alt=""
+    className="c3 c2"
+    height="1em"
+    onError={[Function]}
+    size="1em"
+    src="/static/images/avatar.jpeg"
+  />
+</div>
+`;
+
+exports[`test styled \`Avatar\` render with prop \`small\` 1`] = `
+.c0 {
+  width: small;
+  height: 40px;
+}
+
+.c1 {
+  position: relative;
+}
+
+.c3 {
+  height: 100% !important;
+  object-position: center;
+  object-fit: cover;
+  position: absolute;
+  width: 100% !important;
+}
+
+.c2 {
+  width: 40px;
+  height: 40px;
+}
+
+<div
+  className="c0 c1 c2"
+  height="40px"
+  size="small"
+>
+  <img
+    alt=""
+    className="c3 c2"
+    height="40px"
+    onError={[Function]}
+    size="small"
+    src="/static/images/avatar.jpeg"
+  />
+</div>
+`;

@@ -14,13 +14,13 @@ const Avatar = styled(Image).attrs(props => ({
   fullRounded: props.circle
 }))`
   ${props =>
-    props.size && !Number.isInteger(props.size)
+    props.size && sizes[props.size]
       ? css`
           ${sizes[props.size]}
         `
       : css`
-          width: ${props.size};
-          height: ${props.size};
+          width: ${convertNumberToPixel(props.size)};
+          height: ${convertNumberToPixel(props.size)};
         `}
 `;
 
