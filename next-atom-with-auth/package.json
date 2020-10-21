@@ -42,6 +42,7 @@
     "nprogress": "^0.2.0",
     "numeral": "^2.0.6",
     "prop-types": "^15.7.2",
+    "rc-picker": "^2.3.3",
     "react": "16.13.1",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "16.13.1",
