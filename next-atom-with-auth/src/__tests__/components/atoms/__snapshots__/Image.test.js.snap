@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders \`Image\` with prop \`fullRounded\` 1`] = `
+.c0 {
+  height: 20px;
+}
+
+.c1 {
+  display: block;
+  border-radius: calc(20px / 2);
+}
+
+<img
+  alt=""
+  className="c0 c1"
+  height={20}
+  onError={[Function]}
+  src="lorem-ipsum.png"
+/>
+`;
+
+exports[`renders \`Image\` with prop \`rounded\` 1`] = `
+.c0 {
+  display: block;
+  border-radius: 8px;
+}
+
+<img
+  alt=""
+  className=" c0"
+  onError={[Function]}
+  src="lorem-ipsum.png"
+/>
+`;
