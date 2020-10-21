@@ -17,6 +17,12 @@ const fullRounded = props =>
     borderRadius: `calc(${convertNumberToPixel(props.height)} / 2)`
   };
 
+const tight = props =>
+  props.tight && {
+    left: "0px",
+    top: "0px"
+  };
+
 const Img = styled(Box).attrs(props => ({
   as: "img"
 }))`
@@ -39,10 +45,11 @@ const ImgFit = styled.img`
   ${border}
   ${rounded}
   ${fullRounded}
+  ${tight}
 `;
 
 const Image = ({ src, alt, autofit, ...props }) => {
-  return /.svg/i.test(src) ? (
+  return /.svg$/i.test(src) ? (
     <Box {...props}>
       <ReactSVG
         src={src}
@@ -83,7 +90,7 @@ Image.propTypes = {
 
 Image.defaultProps = {
   alt: "",
-  src: "/public/placeholder.png"
+  src: "/static/images/placeholder.png"
 };
 
 Image.displayName = "Image";
