@@ -5,7 +5,7 @@ import ReduxThunk from "redux-thunk";
 
 import reducers from "./reducers";
 
-const middlewares = [ReduxThunk];
+export const middlewares = [ReduxThunk];
 
 const makeStore = context => {
   const reducer = reducers;
