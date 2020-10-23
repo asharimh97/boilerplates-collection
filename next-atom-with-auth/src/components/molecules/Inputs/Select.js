@@ -9,6 +9,10 @@ const Select = styled(ANTSelect)`
   ${space}
 `;
 
+Select.defaultProps = {
+  onBlur: e => e.preventDefault()
+};
+
 Select.propTypes = {
   ...propTypes.border,
   ...propTypes.layout,

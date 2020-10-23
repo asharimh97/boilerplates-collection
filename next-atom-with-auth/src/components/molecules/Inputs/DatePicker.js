@@ -9,6 +9,11 @@ const DatePicker = styled(Picker)`
   ${space}
 `;
 
+DatePicker.defaultProps = {
+  onFocus: e => e.preventDefault(),
+  onBlur: e => e.preventDefault()
+};
+
 DatePicker.propTypes = {
   ...propTypes.border,
   ...propTypes.layout,
