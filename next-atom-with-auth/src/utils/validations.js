@@ -23,6 +23,6 @@ export const email = value =>
     : undefined;
 
 export const phone = value =>
-  value && !/^(0|62|+62)[0-9]+$/.test(value)
+  value && !/^(0|62|\+62)[0-9]{9,}$/.test(value)
     ? "Invalid phone number"
     : undefined;
