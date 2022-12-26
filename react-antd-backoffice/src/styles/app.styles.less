@@ -1,0 +1,94 @@
+// Font family
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+// Additional less libraries
+@import "./preflight.less";
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fffafd;
+  height: auto;
+}
+
+// TODO: Maybe we can move it to globalStyles if we need "cleaner" code
+// Override notification styles
+.ant-notification-notice {
+  border-radius: 8px;
+  border: solid 1px #e4e4e7; // grey-200
+
+  & .ant-notification-notice-message {
+    font-weight: 500; // medium
+  }
+
+  & .ant-notification-notice-description {
+    color: #71717a; // grey-500
+  }
+}
+
+// Override popover styles
+.ant-popover {
+  & > .ant-popover-content {
+    & > .ant-popover-arrow {
+      display: none;
+    }
+
+    & > .ant-popover-inner {
+      border-radius: 8px;
+      border: solid 1px #e4e4e7; // grey-200
+    }
+  }
+}
+
+// Override table styles
+.ant-table-thead > tr > th {
+  &::before {
+    display: none;
+  }
+
+  background: transparent;
+}
+
+// Override pagination
+.ant-pagination {
+  .ant-pagination-total-text {
+    flex: 1;
+  }
+
+  .ant-pagination-options {
+    order: -1;
+    margin-right: 8px;
+
+    & .ant-select-selector {
+      border-color: transparent;
+    }
+  }
+
+  .ant-pagination-prev,
+  .ant-pagination-item {
+    margin-right: 0;
+    border-collapse: collapse;
+  }
+
+  .ant-pagination-prev {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+    button {
+      border-radius: inherit;
+    }
+  }
+
+  .ant-pagination-next {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    button {
+      border-radius: inherit;
+    }
+  }
+}
+
+div.rule-forum {
+  color: #4b5563 !important;
+}
